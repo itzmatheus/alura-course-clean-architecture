@@ -21,8 +21,11 @@ objects based in one or more attributes;
 - [x] Our application only depends on our domain, and does not recognize infrastructure details. The infrastructure layer supports the innermost layers.
 - [x] Domain layer must be the focus;
 - [x] Web, frameworks, persistence mechanism of data are just details.
-- [x] The application layer works when we have some logic that do not belongs domain layer, but important have in application, so belongs to application layer and the implementations in infrastructure layer;
+- [x] The application layer works when we have some logic that do not belong domain layer, but important have in application, so belongs to application layer and the implementations in infrastructure layer;
 
 #### Services
 
+- [x] Domain Service are classes that represents one action between more than one entity;
+- [x] Application Services control the flow of some business rules application;
+- [x] Infraestructure Services are implementations for present interfaces in domain or application layers;
 - [x] Our business rules should stay in the entities and VOs, but that doesn't always make sense. When we need to perform some action that is not part of any entity or a VO, we can use a Service class.
