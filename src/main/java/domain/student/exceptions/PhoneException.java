@@ -1,4 +1,4 @@
-package student.exceptions;
+package domain.student.exceptions;
 
 public class PhoneException extends Exception{
     public PhoneException(String message) {

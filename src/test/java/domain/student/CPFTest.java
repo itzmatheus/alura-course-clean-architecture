@@ -1,9 +1,9 @@
-package student;
+package domain.student;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import student.CPF;
-import student.exceptions.CPFException;
+import domain.student.CPF;
+import domain.student.exceptions.CPFException;
 
 public class CPFTest {
 

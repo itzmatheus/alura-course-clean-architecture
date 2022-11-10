@@ -1,9 +1,9 @@
-package student;
+package domain.student;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import student.Phone;
-import student.exceptions.PhoneException;
+import domain.student.Phone;
+import domain.student.exceptions.PhoneException;
 
 public class PhoneTest {
 

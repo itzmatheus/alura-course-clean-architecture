@@ -1,8 +1,8 @@
-package student;
+package domain.student;
 
-import student.exceptions.CPFException;
-import student.exceptions.EmailException;
-import student.exceptions.PhoneException;
+import domain.student.exceptions.CPFException;
+import domain.student.exceptions.PhoneException;
+import domain.student.exceptions.EmailException;
 
 public class FactoryForStudent {
 

@@ -1,6 +1,6 @@
-package student;
+package domain.student;
 
-import student.exceptions.PhoneException;
+import domain.student.exceptions.PhoneException;
 
 import java.util.ArrayList;
 import java.util.List;

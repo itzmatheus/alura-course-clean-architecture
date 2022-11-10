@@ -1,6 +1,6 @@
-package student;
+package domain.student;
 
-import student.exceptions.EmailException;
+import domain.student.exceptions.EmailException;
 
 public class Email {
     private String address;

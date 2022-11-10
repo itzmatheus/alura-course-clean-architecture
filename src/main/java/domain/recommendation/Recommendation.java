@@ -1,6 +1,6 @@
-package recommendation;
+package domain.recommendation;
 
-import student.Student;
+import domain.student.Student;
 
 import java.time.LocalDateTime;
 

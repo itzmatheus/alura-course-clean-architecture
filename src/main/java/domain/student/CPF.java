@@ -1,6 +1,6 @@
-package student;
+package domain.student;
 
-import student.exceptions.CPFException;
+import domain.student.exceptions.CPFException;
 
 public class CPF {
 
