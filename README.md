@@ -1,2 +1,15 @@
-# alura-course-clean-architecture
-This repo will have used to store the code of the course about Clean Architecture using Java
+# Alura Course Clean Architecture
+
+## Patterns
+
+#### Entity
+
+- [x] When you class have some kind of "identification" like id or cpf. So you have how diff two or more 
+objects based in one or more attributes;
+
+#### Value Object [Article Uncle Bob About It](https://martinfowler.com/bliki/ValueObject.html)
+
+- [x] When your class have not how difference their own objects;
+- [x] The interest is about some value;
+- [x] Value objects should be immutable;
+- [x] If equality between two objects of a class is verified by comparing all their values, it is a Value Object.
