@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import student.Email;
+import student.exceptions.EmailException;
 
 public class EmailTest {
 

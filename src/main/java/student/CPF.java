@@ -1,3 +1,7 @@
+package student;
+
+import student.exceptions.CPFException;
+
 public class CPF {
 
     private String value;

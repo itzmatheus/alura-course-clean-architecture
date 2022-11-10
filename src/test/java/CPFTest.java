@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import student.CPF;
+import student.exceptions.CPFException;
 
 public class CPFTest {
 

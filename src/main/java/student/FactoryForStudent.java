@@ -1,3 +1,9 @@
+package student;
+
+import student.exceptions.CPFException;
+import student.exceptions.EmailException;
+import student.exceptions.PhoneException;
+
 public class FactoryForStudent {
 
     private Student student;

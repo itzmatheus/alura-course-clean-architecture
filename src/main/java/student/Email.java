@@ -1,4 +1,6 @@
-import java.util.Objects;
+package student;
+
+import student.exceptions.EmailException;
 
 public class Email {
     private String address;
