@@ -21,6 +21,14 @@ public class Phone {
         return this.ddd + this.number;
     }
 
+    public String getDdd() {
+        return ddd;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
     public static boolean isValid(String ddd, String phone) {
         return (ddd.length() == 2 && (List.of(8, 9).contains(phone.length())));
     }
