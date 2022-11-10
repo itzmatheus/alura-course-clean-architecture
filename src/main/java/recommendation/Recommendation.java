@@ -1,3 +1,5 @@
+package recommendation;
+
 import student.Student;
 
 import java.time.LocalDateTime;
