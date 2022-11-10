@@ -21,3 +21,7 @@ objects based in one or more attributes;
 - [x] Our application only depends on our domain, and does not recognize infrastructure details. The infrastructure layer supports the innermost layers.
 - [x] Domain layer must be the focus;
 - [x] Web, frameworks, persistence mechanism of data are just details.
+
+#### Services
+
+- [x] Our business rules should stay in the entities and VOs, but that doesn't always make sense. When we need to perform some action that is not part of any entity or a VO, we can use a Service class.
