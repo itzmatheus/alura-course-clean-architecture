@@ -21,6 +21,7 @@ objects based in one or more attributes;
 - [x] Our application only depends on our domain, and does not recognize infrastructure details. The infrastructure layer supports the innermost layers.
 - [x] Domain layer must be the focus;
 - [x] Web, frameworks, persistence mechanism of data are just details.
+- [x] The application layer works when we have some logic that do not belongs domain layer, but important have in application, so belongs to application layer and the implementations in infrastructure layer;
 
 #### Services
 
