@@ -19,3 +19,5 @@ objects based in one or more attributes;
 ### Layers
 
 - [x] Our application only depends on our domain, and does not recognize infrastructure details. The infrastructure layer supports the innermost layers.
+- [x] Domain layer must be the focus;
+- [x] Web, frameworks, persistence mechanism of data are just details.
