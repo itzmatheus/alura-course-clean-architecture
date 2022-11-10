@@ -1,5 +1,7 @@
 package domain.student;
 
+import domain.student.exceptions.StudentNotFoundException;
+
 import java.util.List;
 
 public interface StudentRepository {
