@@ -13,3 +13,9 @@ objects based in one or more attributes;
 - [x] The interest is about some value;
 - [x] Value objects should be immutable;
 - [x] If equality between two objects of a class is verified by comparing all their values, it is a Value Object.
+
+## Architecture Conceps
+
+### Layers
+
+- [x] Our application only depends on our domain, and does not recognize infrastructure details. The infrastructure layer supports the innermost layers.
