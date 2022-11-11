@@ -1,4 +1,4 @@
-package application.student;
+package application.student.register;
 
 import domain.student.StudentRepository;
 import domain.student.exceptions.CPFException;

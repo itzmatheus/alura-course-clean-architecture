@@ -1,5 +1,5 @@
-import application.student.StudentRegister;
-import application.student.StudentRegisterDto;
+import application.student.register.StudentRegister;
+import application.student.register.StudentRegisterDto;
 import domain.student.exceptions.CPFException;
 import domain.student.exceptions.EmailException;
 import infrastructure.student.StudentRepositoryInMemory;
