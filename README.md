@@ -29,3 +29,7 @@ objects based in one or more attributes;
 - [x] Application Services control the flow of some business rules application;
 - [x] Infraestructure Services are implementations for present interfaces in domain or application layers;
 - [x] Our business rules should stay in the entities and VOs, but that doesn't always make sense. When we need to perform some action that is not part of any entity or a VO, we can use a Service class.
+
+#### Use Case
+
+- [x] The terms Use Case, Application Service and Command Handler are basically synonymous and serve to provide entry points into your application, independently of delivery mechanisms (Web, CLI, etc).
