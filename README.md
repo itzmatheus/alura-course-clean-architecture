@@ -1,5 +1,13 @@
 # Alura Course Clean Architecture
 
+## Benefits
+
+- [x] Domain layer code isolation;
+- [x] Dependency inversion;
+- [x] Support easily for object-oriented best practices;
+- [x] Domaing code with high coverage;
+- [x] No dependency of frameworks or infrastructure details;
+
 ## Patterns
 
 #### Entity
@@ -33,3 +41,10 @@ objects based in one or more attributes;
 #### Use Case
 
 - [x] The terms Use Case, Application Service and Command Handler are basically synonymous and serve to provide entry points into your application, independently of delivery mechanisms (Web, CLI, etc).
+
+
+#### References
+
+- [x] Clean Architecture - Robert C. Martin
+- [x] Domain-Driven Design - Eric Evans
+- [x] Get Your Hands Dirty on Clean Architecture - Tom Hombergs
